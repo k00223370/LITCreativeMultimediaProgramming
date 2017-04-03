@@ -231,6 +231,20 @@ section.main .code aside a.btn{
     box-sizing:border-box;
     border: 10px linear-gradient(grey, white);
     box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset; 
+    float:left;
+    margin-left: 80px;
+    margin-right: 60px;
+    
+}
+
+.boxstyle2{
+    width:30%;
+    box-sizing:border-box;
+    border: 10px linear-gradient(grey, white);
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset; 
+    float:left;
+    margin-left: 10px;
+    margin-right: 10px;
     
 }
 section.timeline {
