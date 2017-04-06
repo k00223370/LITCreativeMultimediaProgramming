@@ -165,7 +165,11 @@ section.main {
 
 }
 
-section.main aside a.btn{
+section.main h1{
+    text-align: center;
+    color: rebeccapurple;
+}
+section.usual aside a.btn{
     width: 30%;
     height: 400px;
     color: purple;
@@ -177,13 +181,14 @@ section.main aside a.btn{
     border-width: 40px;
     padding: 4px 15px;
     margin-left: 10px;
+    margin-top: 20px;
     float:left;
     text-align: center;
     padding-top: 180px;
 }
 
-section.main .code aside a.btn{
-    width: 30%;
+section.code aside a.btn{
+    width:45%;
     height: 400px;
     font-size: 1.5em;
     text-decoration: none;
@@ -192,6 +197,7 @@ section.main .code aside a.btn{
     box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
     border-width: 40px;
     padding: 4px 15px;
+    margin-top: 30px;
     margin-left: 10px;
     float:left;
     text-align: center;
@@ -204,19 +210,23 @@ section.main .boxstyle{
     border: 10px linear-gradient(grey, white);
     box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset; 
     float:left;
+    padding: 20px;
     margin-left: 80px;
-    margin-right: 160px;
+    margin-right: 30px;
+    margin-bottom: 20px;
     
+}
+section.main .boxstyle2 h2{
+    text-align: left;
 }
 
 section.main .boxstyle2{
     width:50%;
     box-sizing:border-box;
-    border: 10px linear-gradient(grey, white);
-    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset; 
-    float:center;
-    margin-left: 10px;
+    border: 10px linear-gradient(grey, black);
+    margin-left: 250px;
     margin-right: 10px;
+    margin-bottom: 20px;
     
 }
 
