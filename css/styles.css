@@ -182,34 +182,6 @@ section.main aside a.btn{
     padding-top: 180px;
 }
 
-section.main .third a.btn{
-    width: 45%;
-}
-
-section.mainFourth {
-    margin-top: 20px;
-    margin-bottom: 30px;
-    padding: 0;
-
-}
-section.mainFourth aside a.btn{
-    width: 45%;
-    height: 400px;
-    font-size: 1.5em;
-    text-decoration: none;
-    background: linear-gradient(grey, white);
-    box-sizing:border-box;
-    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
-    border-width: 40px;
-    padding: 4px 15px;
-    margin-left: 10px;
-    float:left;
-    text-align: center;
-    padding-top: 180px;
- 
-}
-
-
 section.main .code aside a.btn{
     width: 30%;
     height: 400px;
@@ -227,25 +199,40 @@ section.main .code aside a.btn{
     font-family: LetsDoMathsFont;
 }
 
-.boxstyle{
+section.main .boxstyle{
     box-sizing:border-box;
     border: 10px linear-gradient(grey, white);
     box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset; 
     float:left;
     margin-left: 80px;
-    margin-right: 60px;
+    margin-right: 160px;
     
 }
 
-.boxstyle2{
-    width:30%;
+section.main .boxstyle2{
+    width:50%;
     box-sizing:border-box;
     border: 10px linear-gradient(grey, white);
     box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset; 
-    float:left;
+    float:center;
     margin-left: 10px;
     margin-right: 10px;
     
+}
+
+.examples{
+    width: 50%;
+    height: 400px;
+    color: purple;
+    font-size: 1.5em;
+    box-sizing:border-box;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+    border-width: 40px;
+    padding-top: 50px;
+    margin-left: 10px;
+    float:center;
+    text-align: center;
+    padding-top: 180px;
 }
 section.timeline {
     
